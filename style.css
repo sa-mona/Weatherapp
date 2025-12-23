@@ -1,0 +1,197 @@
+body {
+  font-family: "Poppins", sans-serif;
+    background: white;
+}
+
+nav {
+    padding: 30px;
+    text-align: right;
+
+    
+}
+nav a {
+    margin-right: 30px;
+    color: #00ADB5;;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+nav a:hover {
+    color:black;
+    transition: 2sec;
+    text-decoration-line: underline;
+}
+
+.hero {
+    display: flex;              
+    justify-content: space-between; 
+    align-items: center;            
+    padding: 40px;
+    background-color: rgb(231, 212, 212);
+    width: 100vw;   
+    box-sizing: border-box; 
+}
+.hero-left {
+    width: 500%;
+}
+.hero-right {
+    width: 50%;
+    text-align: right;
+}
+.hero-image{
+  border-radius: 50%; /* Makes the element circular */
+  object-fit: cover; /* Optional: ensures the image covers the area without stretching */
+}
+
+
+.hero h1 {
+    font-size: 48px; /* Bigger heading */
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.hero span.highlight {
+    color:  #00ADB5;
+}
+
+.hero p {
+    font-size: 22px; /* Bigger paragraph */
+    margin-bottom: 40px;
+    opacity: 0.9;
+}
+
+.hero button {
+    padding: 15px 35px;
+    font-size: 20px; /* Bigger button text */
+    background:#00ADB5 ;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+margin-left: 40px;}
+
+.hero button:hover {
+    transform: scale(1.07);
+    color:black;
+}
+
+
+.highlight {
+    color: #00ADB5;;
+    font-weight: bold;
+}
+.experience-section {
+    width: 80%;
+    margin: auto;
+    color: white;
+    padding: 20px;
+}
+
+.experience-card {
+    background:#00ADB5;
+    padding: 140px 30px; /* Bigger padding */
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+.experience-card  h2{
+    color: white;
+    
+}
+.about-section {
+    text-align: center;
+    padding: 120px 100px; 
+    background: #00ADB5;
+    color: white;
+    margin: auto;
+     border-radius: 10px;
+
+}
+
+.about-section h2 {
+    font-size: 48px; /* same size as hero title */
+    font-weight: 600;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.about-section p {
+    font-size: 22px; /* bigger text */
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+.projects-container {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    margin-top: 40px;
+}
+
+.project-card {
+    background: #00ADB5;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    transition: 0.4s;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+.project-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.tech {
+    font-size: 15px;
+    opacity: 0.9;
+    margin-bottom: 15px;
+}
+
+.project-card button {
+    padding: 10px 25px;
+    font-size: 16px;
+    margin: 6px;
+    border: none;
+    border-radius: 8px;
+    background: white;
+    color: #00ADB5;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.project-card button:hover {
+    transform: scale(1.05);
+    background: black;
+    color: white;
+}
+.contact-section{
+     width: 80%;
+    margin: auto;
+    color: white;
+    padding: 20px;
+    
+     
+  
+}
+.contact-card{
+      background:#00ADB5;
+    padding: 140px 30px; /* Bigger padding */
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+.contact-a {
+  color: black;
+}
+.contact-a:hover{
+  color: white;
+}
+
+
