@@ -40,13 +40,13 @@ nav a:hover {
     text-align: right;
 }
 .hero-image{
-  border-radius: 50%; /* Makes the element circular */
-  object-fit: cover; /* Optional: ensures the image covers the area without stretching */
+  border-radius: 50%; 
+  object-fit: cover; 
 }
 
 
 .hero h1 {
-    font-size: 48px; /* Bigger heading */
+    font-size: 48px; 
     font-weight: 600;
     margin-bottom: 20px;
 }
@@ -56,14 +56,14 @@ nav a:hover {
 }
 
 .hero p {
-    font-size: 22px; /* Bigger paragraph */
+    font-size: 22px;
     margin-bottom: 40px;
     opacity: 0.9;
 }
 
 .hero button {
     padding: 15px 35px;
-    font-size: 20px; /* Bigger button text */
+    font-size: 20px; 
     background:#00ADB5 ;
     border: none;
     color: white;
@@ -91,7 +91,7 @@ margin-left: 40px;}
 
 .experience-card {
     background:#00ADB5;
-    padding: 140px 30px; /* Bigger padding */
+    padding: 140px 30px; 
     margin: 15px 0;
     border-radius: 10px;
     box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
@@ -111,14 +111,14 @@ margin-left: 40px;}
 }
 
 .about-section h2 {
-    font-size: 48px; /* same size as hero title */
+    font-size: 48px; 
     font-weight: 600;
     color: white;
     margin-bottom: 25px;
 }
 
 .about-section p {
-    font-size: 22px; /* bigger text */
+    font-size: 22px; 
     line-height: 1.8;
     margin-bottom: 20px;
 }
@@ -182,7 +182,7 @@ margin-left: 40px;}
 }
 .contact-card{
       background:#00ADB5;
-    padding: 140px 30px; /* Bigger padding */
+    padding: 140px 30px; 
     margin: 15px 0;
     border-radius: 10px;
     box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
