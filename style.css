@@ -153,7 +153,8 @@ margin-left: 40px;}
     margin-bottom: 15px;
 }
 
-.project-card button {
+.project-card a {
+    display: inline-block;
     padding: 10px 25px;
     font-size: 16px;
     margin: 6px;
@@ -166,7 +167,7 @@ margin-left: 40px;}
     transition: 0.3s;
 }
 
-.project-card button:hover {
+.project-card a:hover {
     transform: scale(1.05);
     background: black;
     color: white;
